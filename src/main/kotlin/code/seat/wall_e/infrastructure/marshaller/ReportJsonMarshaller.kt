@@ -8,7 +8,7 @@ object ReportJsonMarshaller {
     val reportConverter = object : Converter {
         override fun canConvert(cls: Class<*>) = cls == Report::class.java
 
-        override fun fromJson(jv: JsonValue): Any? = TODO("Not yet implemented")
+        override fun fromJson(jv: JsonValue): Any? = TODO("Not implemented yet")
 
         override fun toJson(value: Any): String {
             val report = value as Report
