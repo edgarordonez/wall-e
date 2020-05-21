@@ -9,7 +9,7 @@ import kotlin.math.sqrt
 
 object GeoData {
     fun haversine(currentPoint: LatLng, nextPoint: LatLng): Double {
-        val R = 6371e3 // in metres
+        val R = 6371e3 // in meters
         val lat1: Double = currentPoint.lat
         val lon1: Double = currentPoint.lng
         val lat2: Double = nextPoint.lat
